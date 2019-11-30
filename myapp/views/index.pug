@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  style.
+    #main
+    {
+      background-color:blue;
+      width:850px;
+      height:500px;
+      text-align:center;
+    };
+  div#main
+    p()
+       h1= title
+       p Welcome to #{title}
